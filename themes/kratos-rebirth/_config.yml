@@ -84,7 +84,7 @@ widgets:
 - category
 - tagcloud
 - posts
-avatarUri: http://47.100.45.92/ofs2/h/herox.png
+avatarUri: /herox.png
 
 # Fancybox
 fancybox: true
