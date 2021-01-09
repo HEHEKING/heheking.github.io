@@ -4,8 +4,8 @@
 
 # Site
 title: 肥宅馆
-subtitle: '我的征途是星辰大海'
-description: '<div style="text-align: center;"><h3 style="font-weight: bold">鲸某人</h3><p>忠于自己所热爱的</p></div>'
+subtitle: '我就是力量的化身。'
+description: 忠于自己所热爱的
 keywords:
 author: 鲸某人
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://blog.fat-otaku.top:4000
+url: http://example.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:

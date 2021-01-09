@@ -1659,7 +1659,7 @@ th {
 .kratos-entry-content-new {
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 102px;
+  height: 100px;
 }
 
 .kratos-entry-content-new p {
