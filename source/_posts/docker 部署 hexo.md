@@ -1,10 +1,14 @@
 ---
-title: Docker 部署 hexo
-tag: 教程
+title: docker 部署 hexo
+date: 2020/11/4 15:20:12
+categories:
+- 教程
+tags:
+- docker
+- hexo
 ---
-
-# Docker 部署 hexo
-
+docker 部署 hexo
+<!-- more -->
 ## 方法一、使用 spurin/hexo 架设 hexo
 
 spurin/hexo 是至2020年中保持更新的一个 hexo 的 docker 镜像，一键部署，比较方便

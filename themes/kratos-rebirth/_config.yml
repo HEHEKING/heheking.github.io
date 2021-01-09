@@ -1,6 +1,6 @@
 # Global
 site_analytics: 
-hoster: <a href="https://github.io" target="_blank">Github Pages</a>
+hoster: <a href="https://blog.fat-otaku.top:4000" target="_blank">fat-otaku.top</a>
 site_logo: /favicon.ico
 snow: true
 enableDark: false
