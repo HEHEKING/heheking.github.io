@@ -8,5 +8,21 @@
         </div>
         <%- partial('_partial/footer') %>
         <%- partial('_partial/after-footer') %>
+
+        <!-- 额外添加：2021.1.9 -->
+        <script type="text/javascript">
+            if ('serviceWorker' in navigator) {
+                console.log("119号脚本运行测试.");
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(function (reg) {
+                        console.log("119号脚本运行完毕.");
+                    }).catch(function (err) {
+                        console.log("119号脚本出错:", err)
+                    });
+            }else {
+                console.log("119号脚本异常.");
+            }
+        </script>
+        <!-- 额外添加：2021.1.9 -->
     </body>
 </html>

@@ -3,6 +3,12 @@
   <meta charset="utf-8">
   <link rel="icon" href="<%- theme.site_logo %>">
   <title><% if (page.title) { %><%- page.title %> | <% } %><%- config.title %></title>
+  <!-- 额外添加：2021.1.9 -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/icon/icon144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- 额外添加：2021.1.9 -->
   <meta name="author" content="<%- config.author  %>" />
   <meta http-equiv="Cache-Control" content="no-transform" />
   <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -33,6 +39,7 @@
     <% } %>
   <% } %>
   <!-- 样式表文件 -->
+  <link rel="stylesheet" href="/css/otaku-addon.min.css">
   <link rel="stylesheet" id="kratos-css" href="<% if (theme.cdn) { %>https://cdn.jsdelivr.net/gh/Candinya/Kratos-Rebirth@latest/source<% } %>/css/kratosr.min.css" type="text/css" media="all">
   <link rel="stylesheet" id="highlight-css" href="<% if (theme.cdn) { %>https://cdn.jsdelivr.net/gh/Candinya/Kratos-Rebirth@latest/source<% } %>/css/highlight.min.css" type="text/css" media="all">
   <link rel="stylesheet" id="fontawe-css" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all">

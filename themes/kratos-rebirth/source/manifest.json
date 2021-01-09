@@ -1,0 +1,20 @@
+{
+    "short_name": "FatOtaku",
+    "name": "FatOtaku",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon/icon144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon/icon72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html"
+}
